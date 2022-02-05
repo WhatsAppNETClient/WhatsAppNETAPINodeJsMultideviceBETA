@@ -1,0 +1,27 @@
+{
+  "name": "whatsappnetapinodejs-multidevice",
+  "version": "1.9.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhatsAppNETClient/WhatsAppNETClient2.git"
+  },
+  "keywords": [],
+  "author": "Kamarudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhatsAppNETClient/WhatsAppNETClient2/issues"
+  },
+  "homepage": "http://wa-net.coding4ever.net/",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mime-types": "^2.1.31",
+    "node-signalr": "^2.0.6",
+    "qr-image": "^3.2.0",
+	"whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#multidevice"
+  }
+}
